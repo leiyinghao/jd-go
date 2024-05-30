@@ -3,11 +3,12 @@ package jd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/cliod/jd-go/common"
-	"github.com/cliod/jd-go/log"
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/leiyinghao/jd-go/common"
+	"github.com/leiyinghao/jd-go/log"
 )
 
 // 系统配置/系统参数
@@ -123,7 +124,7 @@ func (ptr *parameter) CheckRequiredParams() (err error) {
 	return nil
 }
 
-//  把所有请求参数按照参数名称的 ASCII 码表顺序进行排序并拼接
+// 把所有请求参数按照参数名称的 ASCII 码表顺序进行排序并拼接
 func (ptr *parameter) getConcatParams() string {
 	var (
 		sorts  []string

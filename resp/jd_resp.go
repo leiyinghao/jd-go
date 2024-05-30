@@ -1,6 +1,6 @@
 package resp
 
-import "github.com/cliod/jd-go/resp/entity"
+import "github.com/leiyinghao/jd-go/resp/entity"
 
 type GoodsJingfenQueryResponse struct {
 	Code       int                      `json:"code"`

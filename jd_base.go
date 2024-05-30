@@ -3,7 +3,8 @@ package jd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/cliod/jd-go/resp"
+
+	"github.com/leiyinghao/jd-go/resp"
 )
 
 // 联盟结果封装

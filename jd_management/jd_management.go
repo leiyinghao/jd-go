@@ -1,7 +1,7 @@
 // Package jd_management provides management tools api of JD_API.
 package jd_management
 
-import "github.com/cliod/jd-go"
+import "github.com/leiyinghao/jd-go"
 
 // 京东管理工具API(兼容)
 type JdManagementService interface {

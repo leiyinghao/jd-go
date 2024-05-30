@@ -3,13 +3,15 @@ package jd
 import (
 	"encoding/json"
 	"errors"
-	"github.com/cliod/jd-go/common"
-	"github.com/cliod/jd-go/log"
 	"strings"
+
+	"github.com/leiyinghao/jd-go/common"
+	"github.com/leiyinghao/jd-go/log"
 )
 
 // 京东联盟API
-//    文档: https://union.jd.com/openplatform/api
+//
+//	文档: https://union.jd.com/openplatform/api
 type Service interface {
 	common.Service
 

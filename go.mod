@@ -1,4 +1,4 @@
-module github.com/cliod/jd-go
+module github.com/leiyinghao/jd-go
 
 go 1.15
 

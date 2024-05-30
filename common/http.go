@@ -2,11 +2,12 @@ package common
 
 import (
 	"fmt"
-	"github.com/cliod/jd-go/log"
-	"github.com/google/go-querystring/query"
 	"io/ioutil"
 	"net/http"
 	"net/url"
+
+	"github.com/google/go-querystring/query"
+	"github.com/leiyinghao/jd-go/log"
 )
 
 // http请求接口

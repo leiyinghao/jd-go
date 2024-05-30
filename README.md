@@ -5,10 +5,10 @@
 
 ### 使用方式
 
-注意：最新版本（包括测试版）为 [![GitHub release](https://img.shields.io/badge/github-releases-blue)](https://github.com/cliod/jd-go/releases)
+注意：最新版本（包括测试版）为 [![GitHub release](https://img.shields.io/badge/github-releases-blue)](https://github.com/leiyinghao/jd-go/releases)
 
 ```shell script
-go get -u github.com/cliod/jd-go
+go get -u github.com/leiyinghao/jd-go
 ```
 
 ### 项目架构
@@ -35,6 +35,6 @@ fmt.Println(res)
 }
 ```
 
-[travis-image]: https://api.travis-ci.com/cliod/jd-go.svg?branch=main
+[travis-image]: https://api.travis-ci.com/leiyinghao/jd-go.svg?branch=main
 
-[travis-url]: https://travis-ci.com/cliod/jd-go
+[travis-url]: https://travis-ci.com/leiyinghao/jd-go

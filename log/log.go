@@ -2,16 +2,17 @@ package log
 
 import (
 	"fmt"
-	"github.com/cliod/jd-go/util"
-	"github.com/lestrrat-go/file-rotatelogs"
-	"github.com/pkg/errors"
-	"github.com/rifflock/lfshook"
-	"github.com/sirupsen/logrus"
 	"os"
 	"path"
 	"runtime"
 	"strings"
 	"time"
+
+	"github.com/leiyinghao/jd-go/util"
+	"github.com/lestrrat-go/file-rotatelogs"
+	"github.com/pkg/errors"
+	"github.com/rifflock/lfshook"
+	"github.com/sirupsen/logrus"
 )
 
 type Level int

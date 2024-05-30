@@ -3,12 +3,13 @@ package jd
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/cliod/jd-go/common"
-	"github.com/cliod/jd-go/log"
 	"io/ioutil"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/leiyinghao/jd-go/common"
+	"github.com/leiyinghao/jd-go/log"
 )
 
 type LocalConfig struct {

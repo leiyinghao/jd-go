@@ -2,12 +2,13 @@
 package jd_api
 
 import (
-	"github.com/cliod/jd-go"
-	"github.com/cliod/jd-go/common"
+	"github.com/leiyinghao/jd-go"
+	"github.com/leiyinghao/jd-go/common"
 )
 
 // 京东联盟API.
-//  文档: https://union.jd.com/openplatform/api.
+//
+//	文档: https://union.jd.com/openplatform/api.
 type Service interface {
 	// 仅用于继承HTTP API，实现通过组合方式
 	common.Service

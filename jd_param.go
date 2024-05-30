@@ -1,6 +1,6 @@
 package jd
 
-import "github.com/cliod/jd-go/common/cmap"
+import "github.com/leiyinghao/jd-go/common/cmap"
 
 type IParam interface {
 	// 请求的方法
