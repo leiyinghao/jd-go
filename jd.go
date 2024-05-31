@@ -332,8 +332,12 @@ func (ser *ServiceImpl) CheckRequiredParameters(v interface{}) error {
 
 // Deprecated: 使用新接口: Request
 func (ser *ServiceImpl) Do(v interface{}, method Method, params map[string]interface{}) error {
-	param := NewTParam(method, params)
-	return ser.Request(v, param)
+	signPara, err := ser.Sign(method, params)
+	if err != nil {
+		log.Error("签名出现错误Sign err :", err)
+		return err
+	}
+	return ser.GetFor(v, BaseUrl, signPara)
 }
 
 func (ser *ServiceImpl) GetResult(res Result, err error) ([]byte, error) {
